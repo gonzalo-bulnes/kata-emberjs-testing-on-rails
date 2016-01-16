@@ -1,4 +1,4 @@
-Emberi.js Testing on Rails Kata
+Ember.js Testing on Rails Kata
 ===============================
 
 An example application from [Ember.js Testing on Rails][book].
