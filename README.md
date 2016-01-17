@@ -10,3 +10,19 @@ An example application from [Ember.js Testing on Rails][book].
 
   [book]: https://leanpub.com/emberjs-testingonrails
 
+Usage
+-----
+
+```bash
+# Install the API dependencies
+bundle install
+
+# Install the frontend dependencies
+cd frontend
+npm install
+bower install
+
+# start the application
+cd .. && rackup -p 3000 # visit http://localhost:3000
+```
+
