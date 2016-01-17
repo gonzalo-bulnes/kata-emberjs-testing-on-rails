@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
 gem 'sqlite3', '~> 1.0'
+gem 'coffee-rails', '~> 4.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '~> 2.0'
 
@@ -23,5 +24,9 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring', '~> 1.0'
   gem 'quiet_assets', '~> 1.0'
+  gem 'guard-rspec', '~> 4.0'
+  gem 'guard-teaspoon', '0.8.0'
+  gem 'teaspoon-qunit', '~> 1.0'
+  gem 'spring-commands-teaspoon', '0.0.2'
 end
 
