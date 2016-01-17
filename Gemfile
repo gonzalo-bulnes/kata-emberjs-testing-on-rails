@@ -13,6 +13,9 @@ gem 'ember-cli-rails', '~> 0.7.0'
 
 group :development, :test do
   gem 'byebug', '~> 8.0'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'spring-commands-rspec', '~> 1.0'
 end
 
 group :development do
