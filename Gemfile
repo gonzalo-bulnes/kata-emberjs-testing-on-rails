@@ -17,6 +17,10 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'rspec-rails', '~> 3.0'
   gem 'spring-commands-rspec', '~> 1.0'
+  gem 'guard-rspec', '~> 4.0'
+  gem 'guard-teaspoon', '0.8.0'
+  gem 'teaspoon-qunit', '~> 1.0'
+  gem 'spring-commands-teaspoon', '0.0.2'
 end
 
 group :development do
@@ -24,9 +28,5 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring', '~> 1.0'
   gem 'quiet_assets', '~> 1.0'
-  gem 'guard-rspec', '~> 4.0'
-  gem 'guard-teaspoon', '0.8.0'
-  gem 'teaspoon-qunit', '~> 1.0'
-  gem 'spring-commands-teaspoon', '0.0.2'
 end
 
